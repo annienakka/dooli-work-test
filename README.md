@@ -1,4 +1,4 @@
-# dooli work tests
+# dooli work tests (Arbetsprov)
 
 Click here:
-- [Software tester](testing/README.md)
+- [Software tester](testing)

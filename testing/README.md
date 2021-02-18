@@ -1,6 +1,6 @@
-# dooli - Arbetsprov Mjukvarutestare
+# Arbetsprov Mjukvarutestare
 
-För att kunna utföra detta prov krävs en **cypress.json** fil, filen skickas ut via mail/discord av doolis personal och ska läggas i samma mapp som denna README-fil.
+For English: contact us.
 
 ## Mål
 1. Skapa ett automatiserat test som **lyckas** att gå genom processen för att registrera en giltig leverantör med minst 1 profil/kategori.
@@ -10,6 +10,8 @@ Att skapa ytterliggare tester för t.ex ogiltiga namn/email-adresser och andra f
 
 
 ## Data
+För att kunna utföra detta prov krävs en **cypress.json** fil, filen skickas ut via mail/discord av doolis personal och ska läggas i samma mapp som denna README-fil.
+
 För att gå genom registreringen krävs tfn-nummer, org-nr etc, exempeldata för dessa kan du hitta här:
 - [personuppgifter](https://fejk.se/) - refresha för fler
 - [organisationsnummer](https://www.allabolag.se/what/Eriksson%20AB) - sök på valfritt namn
