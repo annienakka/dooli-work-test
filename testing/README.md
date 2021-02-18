@@ -2,16 +2,18 @@
 
 För att kunna utföra detta prov krävs en **cypress.json** fil, filen skickas ut via mail/discord av doolis personal och ska läggas i samma mapp som denna README-fil.
 
-### Mål
+## Mål
 1. Skapa ett automatiserat test som **lyckas** att gå genom processen för att registrera en giltig leverantör med minst 1 profil/kategori.
 2. Skapa ett automatiserat test som **misslyckas** att gå genom processen för att registrera en leverantör med ett ogiltigt 10-siffrigt organisationsnummer.
 
 Att skapa ytterliggare tester för t.ex ogiltiga namn/email-adresser och andra fel som användaren kan begå behövs *inte* göras som en del av arbetsprovet.
 
-### Data
+
+## Data
 För att gå genom registreringen krävs tfn-nummer, org-nr etc, exempeldata för dessa kan du hitta här:
 - [personuppgifter](https://fejk.se/) - refresha för fler
 - [organisationsnummer](https://www.allabolag.se/what/Eriksson%20AB) - sök på valfritt namn
+
 
 ## Verktyg & Guider
 ### Cypress
@@ -26,7 +28,7 @@ För att utföra arbetsprovet krävs det att man kan *lite av grunderna* i dessa
 - [Chai assertions](https://docs.cypress.io/guides/references/assertions.html#Chai)
 
 
-### Installation
+## Installation
 1. För att kunna skriva testerna krävs en text-redigerare, **VSCode** rekommenderas.
 2. För att kunna köra testerna krävs **nodejs** (minst version 10, helst vresion 14.15.5) & **npm** (följer automatiskt med i nodejs-installationen).
 3. Med detta installerat kör `npm i` (npm install) i valfri terminal.
@@ -48,3 +50,7 @@ D.v.s de ska helt enkelt vara straight-forward, enkla att förstå och ska tydli
 För LiA:n kommer det finnas högre krav på tester.
 De ska bl a dokumenteras, ha tydliga error-meddelanden, vara uppdelade i flertalet filer, ha så lite duplicerad kod som möjligt m.m.
 Mer info om detta på plats.
+
+
+### Frågor
+Fråga din kontaktperson på dooli via mail eller discord om du har några förundringar, att ställa generella frågor om arbetsprovet påverkar inte ditt resultat.
