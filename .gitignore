@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+testing/cypress/screenshots/
+testing/cypress/videos/
+testing/cypress.json
