@@ -31,7 +31,7 @@ För att utföra arbetsprovet krävs det att man kan *lite av grunderna* i dessa
 
 
 ## Installation
-1. Forka gärna ned detta GitHub-repo och utgå ifrån den. Annars kan du välja att klona repo:t eller skapa ett helt eget projekt från grund. ![how-to-fork-github-repo](how-to-fork-github-repo.png)
+1. Forka gärna ned detta GitHub-repo och utgå ifrån den. Annars kan du välja att klona repo:t eller skapa ett helt eget projekt från grund. ![how-to-fork-github-repo](https://github.com/Majvall/dooli-work-test/blob/main/how-to-fork-github-repo.png)
 1. För att kunna skriva testerna krävs en text-redigerare, **VSCode** rekommenderas.
 1. För att kunna köra testerna krävs **nodejs** (minst version 10, helst vresion 14.15.5) & **npm** (följer automatiskt med i nodejs-installationen).
 1. Med detta installerat kör `npm i` (npm install) i valfri terminal.
