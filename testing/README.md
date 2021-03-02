@@ -10,7 +10,7 @@ Att skapa ytterliggare tester för t.ex ogiltiga namn/email-adresser och andra f
 
 ## Deadline
 1 vecka från start, denna långa tid är för att man som sökande ska kunna göra provet när man får en paus från barn/studier/jobb, t.ex på en helg.
-Provet förväntas göras på mindre än 1 dag för en senior och mindre än 3 heldagar för en junior.
+Provet förväntas göras på mindre än 1 heldag för en senior och mindre än 3 heldagar för en junior (ej obligatoriskt).
 
 ## Data
 För att kunna utföra detta prov krävs en **cypress.json** fil, filen skickas ut via mail/discord av doolis personal och ska läggas i samma mapp som denna README-fil.
