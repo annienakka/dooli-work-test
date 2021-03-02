@@ -53,6 +53,7 @@ För arbetsprovet finns det så gott som inga krav för kodkvalitet.
 
 ### Testkvalité
 För arbetsprovet krävs det att testerna 1 & 2 går att utföra utan några konstigheter som "sleep"/timers, onödiga refreshes i browsern osv.
+Att använda { timeout: 15000 } där det behövs är absolut okej.
 
 D.v.s de ska helt enkelt vara straight-forward, enkla att förstå och ska tydligt visa resultatet success eller failure.
 
