@@ -9,7 +9,7 @@
 Att skapa ytterliggare tester för t.ex ogiltiga namn/email-adresser och andra fel som användaren kan begå behövs *inte* göras som en del av arbetsprovet.
 
 ## Deadline
-1 vecka från start, denna långa tid är för att man som sökande ska kunna göra provet efter sin nuvarande sysselsättning, t.ex på en helg.
+1 vecka från start, denna långa tid är för att man som sökande ska kunna göra provet när man får en paus från barn/studier/jobb, t.ex på en helg.
 Provet förväntas göras på mindre än 1 dag för en senior och mindre än 3 heldagar för en junior.
 
 ## Data
