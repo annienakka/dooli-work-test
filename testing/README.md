@@ -8,6 +8,9 @@
 
 Att skapa ytterliggare tester för t.ex ogiltiga namn/email-adresser och andra fel som användaren kan begå behövs *inte* göras som en del av arbetsprovet.
 
+## Deadline
+1 vecka från start, denna långa tid är för att man som provtagare ska kunna göra provet när man har tid över, t.ex på en helg.
+Provet förväntas göras på mindre än 1 dag för en senior och mindre än 3 heldagar för en junior.
 
 ## Data
 För att kunna utföra detta prov krävs en **cypress.json** fil, filen skickas ut via mail/discord av doolis personal och ska läggas i samma mapp som denna README-fil.
