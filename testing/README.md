@@ -1,6 +1,6 @@
 # Arbetsprov Mjukvarutestare
 
-For English: contact us.
+[https://translate.google.com/translate?sl=sv&tl=en&u=https://github.com/Majvall/dooli-work-test/tree/main/testing](For English - click here)
 
 ## Mål
 1. Skapa ett automatiserat test som **lyckas** att gå genom processen för att registrera en giltig leverantör med minst 1 profil/kategori.
@@ -33,7 +33,7 @@ För att utföra arbetsprovet krävs det att man kan *lite av grunderna* i dessa
 ## Installation
 1. Forka gärna ned detta GitHub-repo och utgå ifrån den. Annars kan du välja att klona repo:t eller skapa ett helt eget projekt från grund. ![how-to-fork-github-repo](https://github.com/Majvall/dooli-work-test/blob/main/how-to-fork-github-repo.png)
 1. För att kunna skriva testerna krävs en text-redigerare, **VSCode** rekommenderas.
-1. För att kunna köra testerna krävs **nodejs** (minst version 10, helst 14.15) & **npm** (följer automatiskt med i nodejs-installationen).
+1. För att kunna köra testerna krävs **nodejs** (version 14.9) & **npm** (följer automatiskt med i nodejs-installationen).
 1. Med detta installerat kör `npm i` (npm install) i valfri terminal.
 1. Efteråt kör `npm start` i valfri terminal.
 1. Cypress GUI bör nu öppnas, i den kan du klicka på det test du vill ska köras, t.ex: landing_page.spec.js
@@ -45,14 +45,13 @@ För att utföra arbetsprovet krävs det att man kan *lite av grunderna* i dessa
 ### Kodkvalité
 För arbetsprovet finns det så gott som inga krav för kodkvalitet.
 
-På LiA:n kommer det däremot finnas en del krav, dessa kommer förmedlas skriftligt på plats.
-
 ### Testkvalité
 För arbetsprovet krävs det att testerna 1 & 2 går att utföra utan några konstigheter som "sleep"/timers, onödiga refreshes i browsern osv.
 
-D.v.s de ska helt enkelt vara straight-forward, enkla att förstå och ska tydligt visa resultatet success eller failture.
+D.v.s de ska helt enkelt vara straight-forward, enkla att förstå och ska tydligt visa resultatet success eller failure.
 
-För LiA:n kommer det finnas högre krav på tester.
+### At the workplace
+För arbete som anställd eller praktikant kommer det finnas högre krav på tester, dessa kommer förmedlas skriftligt där och då.
 De ska bl a dokumenteras, ha tydliga error-meddelanden, vara uppdelade i flertalet filer, ha så lite duplicerad kod som möjligt m.m.
 Mer info om detta på plats.
 
