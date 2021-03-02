@@ -18,9 +18,10 @@ För att gå genom registreringen krävs tfn-nummer, org-nr etc, exempeldata fö
 
 
 ## Verktyg & Guider
+
 ### Cypress
-Cypress är likt Selenium (men bättre), för att komma igång med det så läs följande:
-- [Cypress](https://docs.cypress.io/guides/getting-started/writing-your-first-test.html)
+Cypress är likt Selenium (men bättre), för att komma igång med det så gör följande:
+- [Cypress - Getting Started](https://docs.cypress.io/guides/getting-started/writing-your-first-test.html)
 
 
 Som en del av Cypress framework finns det en del andra populära testbibliotek integrerade från start.
@@ -29,6 +30,8 @@ För att utföra arbetsprovet krävs det att man kan *lite av grunderna* i dessa
 - [Chai jQuery](https://docs.cypress.io/guides/references/assertions.html#Chai-jQuery)
 - [Chai assertions](https://docs.cypress.io/guides/references/assertions.html#Chai)
 
+### Language
+We write our tests with JavaScript and in English.
 
 ## Installation
 1. Forka gärna ned detta GitHub-repo och utgå ifrån den. Annars kan du välja att klona repo:t eller skapa ett helt eget projekt från grund. ![how-to-fork-github-repo](https://github.com/Majvall/dooli-work-test/blob/main/how-to-fork-github-repo.png)
@@ -51,10 +54,10 @@ För arbetsprovet krävs det att testerna 1 & 2 går att utföra utan några kon
 D.v.s de ska helt enkelt vara straight-forward, enkla att förstå och ska tydligt visa resultatet success eller failure.
 
 ### At the workplace
-För arbete som anställd eller praktikant kommer det finnas högre krav på tester, dessa kommer förmedlas skriftligt där och då.
+För arbete som anställd eller praktikant kommer det finnas högre krav på tester.
 De ska bl a dokumenteras, ha tydliga error-meddelanden, vara uppdelade i flertalet filer, ha så lite duplicerad kod som möjligt m.m.
 Mer info om detta på plats.
 
 
-### Frågor
+## Frågor
 Fråga din kontaktperson på dooli via mail eller discord om du har några förundringar, att ställa generella frågor om arbetsprovet påverkar inte ditt resultat.
