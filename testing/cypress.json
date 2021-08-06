@@ -1,0 +1,11 @@
+{
+  "$schema": "https://on.cypress.io/cypress.schema.json",
+  "baseUrl": "FRONTEND_URL",
+  "viewportWidth": 1000,
+  "viewportHeight": 1000,
+  "defaultCommandTimeout": 10000,
+  "env": {
+    "backendUrl": "BACKEND_URL_WITHOUT_API_ENDPOINT",
+    "apiUrl": "BACKEND_URL_WITH_API_ENDPOINT"
+  }
+}
