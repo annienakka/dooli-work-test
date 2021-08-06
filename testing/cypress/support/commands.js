@@ -12,7 +12,7 @@ let customer;
 let provider;
 
 /**
- * A command to extract the provider data in the fixture files
+ * A command to extract and load the provider data in the fixture file.
  */
 Cypress.Commands.add('provider', () => {
   if (provider) return cy.wrap(provider);
@@ -23,7 +23,7 @@ Cypress.Commands.add('provider', () => {
 });
 
 /**
- * A command to extract the customer data in the fixture files
+ * A command to extract the and load customer data in the fixture file.
  */
 Cypress.Commands.add('customer', () => {
   if (customer) return cy.wrap(customer);
@@ -38,4 +38,16 @@ Cypress.Commands.add('customer', () => {
  */
 Cypress.Commands.add('getByTestId', (selector, timeout?) => {
   return cy.get(`[data-test-id="${selector}"]`, { timeout });
+});
+
+Cypress.Commands.add('setTooltips', () => {
+  const tooltips = [
+    { label: 'bookings', page: 'chat' },
+    { label: 'signContract', page: 'chat' },
+    { label: 'viewContractCustomer', page: 'chat' },
+    { label: 'viewContractProvider', page: 'chat' },
+    { label: 'jobRequest', page: 'match' },
+  ];
+
+  cy.request('POST', `${Cypress.env('apiUrl')}/tooltip/`, { tooltips });
 });
