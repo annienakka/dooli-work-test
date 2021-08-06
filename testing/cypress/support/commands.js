@@ -7,19 +7,35 @@
 // commands please read more here:
 // https://on.cypress.io/custom-commands
 // ***********************************************
-//
-//
-// -- This is a parent command --
-// Cypress.Commands.add("login", (email, password) => { ... })
-//
-//
-// -- This is a child command --
-// Cypress.Commands.add("drag", { prevSubject: 'element'}, (subject, options) => { ... })
-//
-//
-// -- This is a dual command --
-// Cypress.Commands.add("dismiss", { prevSubject: 'optional'}, (subject, options) => { ... })
-//
-//
-// -- This will overwrite an existing command --
-// Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+
+let customer;
+let provider;
+
+/**
+ * A command to extract the provider data in the fixture files
+ */
+Cypress.Commands.add('provider', () => {
+  if (provider) return cy.wrap(provider);
+  cy.fixture('provider').then((res) => {
+    provider = res;
+    cy.wrap(provider);
+  });
+});
+
+/**
+ * A command to extract the customer data in the fixture files
+ */
+Cypress.Commands.add('customer', () => {
+  if (customer) return cy.wrap(customer);
+  cy.fixture('customer').then((res) => {
+    customer = res;
+    cy.wrap(customer);
+  });
+});
+
+/**
+ * A command to more easily get an element that has a data-test-id attribute
+ */
+Cypress.Commands.add('getByTestId', (selector, timeout?) => {
+  return cy.get(`[data-test-id="${selector}"]`, { timeout });
+});
