@@ -48,7 +48,8 @@ Skriv all din kod (inklusive kommentarer etc) på Engelska och använd JavaScrip
 
 
 ## Tips
-Utgå/kopiera från `..../cypress/integration/example.spec.js` för att få rätt på databasen etc.
+Kopiera från `..../cypress/integration/example.spec.js` för att få rätt på databasen etc.
+Använd våra hjälpfunktioner som t.ex `cy.getByTestId('button-submit').click();`
 
 ## Kvalitet
 
@@ -58,7 +59,6 @@ För arbetsprovet finns det så gott som inga krav för kodkvalitet.
 ### Testkvalité
 För arbetsprovet krävs det att testerna 1 & 2 går att utföra utan några **onödiga** "wait", browser-refreshes osv.
 Att använda parametern `{ timeout: 10000 }` där det behövs är absolut okej.
-Använd våra hjälpfunktioner som t.ex `cy.getByTestId('button-submit').click();`
 
 D.v.s de ska helt enkelt vara straight-forward, enkla att förstå och ska tydligt visa resultatet success eller failure.
 
