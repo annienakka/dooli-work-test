@@ -3,8 +3,8 @@
 ## Click here:
 
 - [If you are a 1st-year student](student)
-- [Frontend only](frontend)
-- [Backend only](backend)
+- [Frontend](frontend)
+- [Backend](backend)
 
 ## Fullstack:
 
