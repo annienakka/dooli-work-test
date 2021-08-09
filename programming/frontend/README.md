@@ -12,7 +12,7 @@
 
 ---
 
-## Välj 1 av följande Frameworks
+## Använd 1 av följande Frameworks
 - `Vue.js`
 - `Svelte`
 - `React.js`
