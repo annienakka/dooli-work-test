@@ -21,7 +21,7 @@
 ---
 
 ## Design
-- Modern UX https://www.google.com/search?q=modern+input&tbm=isch
+- <a href="https://www.google.com/search?q=modern+input&tbm=isch/" target="_blank">Modern UX</a>
   - Välj valfri stil, storlek & färger. Overall ska det vara ganska modernt (se google-länken ovan för exempel, klicka gärna in på sökresultaten).
 - Använd inga externa CSS-bibliotek
 
