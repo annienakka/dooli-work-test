@@ -54,10 +54,10 @@
 ## Kodkvalité
 - All kod, inklusive CSS:n ska vara refaktorerad (välskriven).
   - DRY
-  - axios är förbjudet, använd fetch.
+  - axios är förbjudet, använd fetch. Eftersom du inte har en riktig backend så ska du kommentera ut anropet och sedan låtsas ha fått ett svar från en backend.
   - Inga kommentarer i koden, koden ska tala för sig själv (lättlästa & tydliga namngivningar).
 - Skriv ingen onödig CSS (IE-kompatibilitet, default-values etc).
-- Undvik att använda < form > med anledningen att du skall visa att du kan hantera input-data, POST etc själv.
+- Undvik att använda `<form>` med anledningen att du skall visa att du kan hantera input-data, POST etc själv.
 
 ---
 
