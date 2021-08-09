@@ -14,7 +14,7 @@
 
 ## Välj 1 av följande Frameworks
 - Vue.js
-- Svelte_
+- <span class=”notranslate”>Svelte</span>
 - React.js
 - Aurelia
 
@@ -57,7 +57,7 @@
   - axios är förbjudet, använd fetch.
   - Inga kommentarer i koden, koden ska tala för sig själv (lättlästa & tydliga namngivningar).
 - Skriv ingen onödig CSS (IE-kompatibilitet, default-values etc).
-- Undvik att använda <form> med anledningen att du skall visa att du kan hantera input-data, POST etc själv.
+- Undvik att använda < form > med anledningen att du skall visa att du kan hantera input-data, POST etc själv.
 
 ---
 
