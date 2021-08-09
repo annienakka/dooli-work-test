@@ -14,7 +14,7 @@
 
 ## Välj 1 av följande Frameworks
 - Vue.js
-- Svelte
+- Svelte_
 - React.js
 - Aurelia
 
