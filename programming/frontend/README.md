@@ -13,10 +13,10 @@
 ---
 
 ## Välj 1 av följande Frameworks
-- Vue.js
+- `Vue.js`
 - `Svelte`
-- React.js
-- Aurelia
+- `React.js`
+- `Aurelia`
 
 ---
 
