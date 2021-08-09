@@ -14,7 +14,7 @@
 
 ## Välj 1 av följande Frameworks
 - Vue.js
-- <span class=”notranslate”>Svelte</span>
+- `Svelte`
 - React.js
 - Aurelia
 
