@@ -68,7 +68,7 @@
 
 ---
 ## Slutresultat
-Deadline: 1 vecka, bör dock max ta 3 dagar.
+Deadline: 1 vecka - men förväntad tid är 1-3 dagar.
 
 Skicka ditt resultat till oss när du är klar.
 
