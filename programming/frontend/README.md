@@ -23,7 +23,7 @@
 ## Design
 - Modern UX https://www.google.com/search?q=modern+input&&tbm=isch
   - Välj valfri stil, storlek & färger. Overall ska det vara ganska modernt (se google-länken ovan för exempel, klicka gärna in på sökresultaten).
-- Använd inga externa CSS-frameworks
+- Använd inga externa CSS-bibliotek
 
 ---
 
