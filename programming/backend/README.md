@@ -84,7 +84,7 @@ users.forEach(user =>
 
 ---
 ## Slutresultat
-Deadline: 1 vecka - men förväntad utvecklingstid är 1 dag.
+Deadline: 1 vecka - men förväntad utvecklingstid är 1-2 dagar.
 
 Skicka ditt resultat till oss när du är klar.
 
