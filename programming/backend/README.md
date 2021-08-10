@@ -4,13 +4,13 @@
 
 ## Beskrivning
 Skapa en backend som åtminstone har följande API-routes
-- `/api/account/signup` (POST)
-- `/api/account/login` (POST)
-- `/api/account/logout` (GET)
-- `/api/user` (GET, gets a list of all users)
-- `/api/user/exists?pnr=...` (GET, returns true if user exists)
+- `/api/account/signup` (`POST`)
+- `/api/account/login` (`POST`)
+- `/api/account/logout` (`GET`)
+- `/api/user` (`GET`, lista alla användare)
+- `/api/user/exists?pnr=...` (`GET`, true om användaren existerar)
 
-Content-Type: application/json
+Content-Type: `application/json`
 
 Sessioner ska finnas för inloggade användare, detta ska hanteras med JWT och ska skickas via en HTTP-Header.
 
@@ -18,7 +18,7 @@ Endast inloggade användare ska få lov att anropa `user` och `logout`.
 
 Endast utloggade användare ska få lov att anropa `signup`, `login` och `exists`.
 
-- Om ett konto för angivet personnummer redan existera ska användaren få en error som berättar det samt att de har möjligheten att logga in istället.
+Om användaren försöker skapa ett konto med ett redan existerande personnummer ska det skickas tillbaka en error som berättar det.
 
 Skapa en extremt simpel frontend (se nedan) som verifierar att din backend fungerar, inga externa bibliotek får användas i frontendkoden.
 
@@ -26,7 +26,7 @@ Validering av användardata skickad till ditt API ska utföras.
 
 Användarens pnr (personnummer) ska vara unikt bland användare.
 
-Använd regexp för pnr-validering, att födelsedatumet är "verkligt" behöver du ej validera.
+Använd regexp för pnr-validering, du behöver ej validera att födelsedatumet är "verkligt".
 
 ---
 
