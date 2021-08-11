@@ -36,7 +36,7 @@ Cypress.Commands.add('customer', () => {
 /**
  * A command to more easily get an element that has a data-test-id attribute
  */
-Cypress.Commands.add('getByTestId', (selector, timeout?) => {
+Cypress.Commands.add('getByTestId', (selector, timeout = undefined) => {
   return cy.get(`[data-test-id="${selector}"]`, { timeout });
 });
 
@@ -51,3 +51,5 @@ Cypress.Commands.add('setTooltips', () => {
 
   cy.request('POST', `${Cypress.env('apiUrl')}/tooltip/`, { tooltips });
 });
+
+
